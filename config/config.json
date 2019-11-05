@@ -1,0 +1,10 @@
+{
+"apparel_detection_model" : "models/apparel_detector.pb",
+"apparel_detection_label" : "models/apparel_labels.pbtxt",
+"confidence_threshold" : 0.9,
+"number_classes" : 3,
+"test_image" : "examples/image_11.jpg",
+  "color_model" : "models/color_model.h5",
+  "test_image_path" : "examples/"
+}
+
