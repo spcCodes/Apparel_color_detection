@@ -12,3 +12,10 @@ This project focusses on detecting the apparel which may be dress , tops or jean
 
 <a name="general-info"></a>
 ## General info
+The objective of this project is to develop a working model that can automatically identify the apparel types given an image and also identify its colors. To mantain the sanity and complexity of the dataset , the apparel is restricted to dresss,tops and jeans while color is restricted to red, blue and green. It is targeted to serve as an automatic apparel recognition api.
+
+
+The dataset used for this model was the [cars dataset](https://drive.google.com/open?id=1aj-umzIq9ujQTGnUae__MVgwjTWxviSP)
+
+
+
