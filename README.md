@@ -33,5 +33,54 @@ Current validation accuracy for the apparel detection stands at **94%** which ca
 
 The entire project structure is as follows:
 
+```
+├── config
+│   └── config.json
+├── data
+├── examples
+│   ├── image_1.jpg
+│   ├── image_10.jpg
+│   ├── image_11.jpg
+│   ├── image_12.jpg
+│   ├── image_13.jpg
+│   ├── image_14.jpg
+│   ├── image_15.jpg
+│   ├── image_16.jpg
+│   ├── image_2.jpg
+│   ├── image_3.jpg
+│   ├── image_4.jpg
+│   ├── image_5.jpg
+│   ├── image_6.jpg
+│   ├── image_7.jpg
+│   ├── image_8.jpg
+│   └── image_9.jpg
+├── models
+│   ├── apparel_detector.pb
+│   ├── apparel_labels.pbtxt
+│   └── color_model.h5
+├── output
+│   └── output.csv
+├── src
+│   ├── __pycache__
+│   │   ├── apparel_color_detector.cpython-36.pyc
+│   │   ├── apparel_detector.cpython-36.pyc
+│   │   ├── color_detector.cpython-36.pyc
+│   │   └── get_product_details.cpython-36.pyc
+│   ├── apparel_color_classify.py
+│   ├── apparel_color_classify_all_images.py
+│   ├── apparel_color_detector.py
+│   ├── apparel_detector.py
+│   ├── color_detector.py
+│   └── get_product_details.py
+├── test
+├── utils
+│   ├── __pycache__
+│   │   ├── string_int_label_map_pb2.cpython-36.pyc
+│   │   └── utils.cpython-36.pyc
+│   ├── string_int_label_map_pb2.py
+│   └── utils.py
+├── app.py
+├── requirements.txt
+└── test_apparel_classifier.py
 
-
+```
