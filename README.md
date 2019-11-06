@@ -71,3 +71,27 @@ The entire project structure is as follows:
 └── test_apparel_classifier.py
 
 ```
+As we see from the project structure :
+a) all the class related to apparel detector and color detector are kept in **src** folder. 
+b)The test images are kept in examples folder. 
+c) The configurable parameters like model loading path , threshold , test image path are kept in **config.json** file
+d) All the trained models and tits label files are kept in **models** folder
+e) The utilities or helper functions which are required throughout the project are kept in utils.py insode **utils** folder
+f) **app.py** was written for a flask python wrapper to start the server kernel. Also the **test_classifier.py** is on the client side to test it given a web based api
+
+
+<a name="data"></a>
+## Dataset
+
+The dataset for this challenge was a custom made dataset which was extracted from the net [cloth dataset](https://drive.google.com/open?id=1aj-umzIq9ujQTGnUae__MVgwjTWxviSP)
+
+The Clothing dataset contains 810 images of around 270 images of each class. The data is split into 720 training images and 81 testing images. As the challenge clearly stated just to take the training dataset for preparing the model , only the  containing 720 inages were taken for training our model.
+The meta data information are the label annotations that were donw using LabelImg which gaves us the bounding box required to train our object detection module.
+
+
+
+
+
+
+
+
