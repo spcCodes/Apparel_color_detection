@@ -55,11 +55,6 @@ The entire project structure is as follows:
 ├── output
 │   └── output.csv
 ├── src
-│   ├── __pycache__
-│   │   ├── apparel_color_detector.cpython-36.pyc
-│   │   ├── apparel_detector.cpython-36.pyc
-│   │   ├── color_detector.cpython-36.pyc
-│   │   └── get_product_details.cpython-36.pyc
 │   ├── apparel_color_classify.py
 │   ├── apparel_color_classify_all_images.py
 │   ├── apparel_color_detector.py
@@ -68,8 +63,6 @@ The entire project structure is as follows:
 │   └── get_product_details.py
 ├── test
 ├── utils
-│   ├── __pycache__
-│   │   ├── string_int_label_map_pb2.cpython-36.pyc
 │   │   └── utils.cpython-36.pyc
 │   ├── string_int_label_map_pb2.py
 │   └── utils.py
