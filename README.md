@@ -120,9 +120,22 @@ python src/apparel_color_classify.py --image examples/image_11.jpg
 
 <div style="text-align: center"><img src="data/image_11.jpg" width="300"/></div>
 
+Once we run the script above the results displayed is as such:
 
+```
 
+################ PRINTING THE RESULTS ###############
+Products found: 2
+Product_1: jeans
+Confidence score: 99.63%
+Predicted color: blue
+Blue : 99.98%  Green : 0.01%  Red : 0.01%
+Product_2: tops
+Confidence score: 95.10%
+Predicted color: green
+Blue : 0.10%  Green : 99.89%  Red : 0.00%
 
+```
 
 
 
