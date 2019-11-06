@@ -7,7 +7,7 @@ This project focusses on detecting the apparel which may be dress , tops or jean
 * [Dataset](#data)
 * [Project Execution Steps](#project)
 * [Flask App](#flask)
-* [Result Images](#images)
+* [Conclusion](#conclusion)
 * [Future Work](#future)
 
 <a name="general-info"></a>
@@ -198,13 +198,14 @@ You can copy all your images inside the **examples** folder and run the above sc
 I have also created a flask app which would take an image and give recognition in real time. To run the flask app below is the steps
 
 a) Go to the project structure
+
 b) In a terminal run
 
 ```
 python app.py
 ```
 
-c) In another terminal , run **test_production.py** to see the output. The command is as follows:
+c) In another terminal , run **test_apparel_classifier.py** to see the output. The command is as follows:
 ```
 python test_apparel_classifier.py 
 
@@ -226,3 +227,21 @@ The output for the app would look somewhat like this:
 "number_of_products":2
 }
 ```
+
+In case you want to test it on other images change the image name by editing in **line number 39** of **test_apparel_classifier.py** and changing it according to your images
+
+** It was not possible to create a GUI based application given in such constrained time. However a good resource to make a GUI was available which I thought to implement it taking the cues from there**
+
+<a name="conclusion"></a>
+## Conclusion
+
+We have succesfully implemented a project that could identify the apparel and its color associated with it. One of the major merits in trying out this project was it was able to identify different apparel in a given single image. This can be scaled up to identify different attributes related to that particuar apparel which lies in the future scope of work
+
+<a name="future"></a>
+## Future Work
+
+-  Hyperparameters tuning to get a better test accuracy.
+-  Create GUI for web based aplication.
+-  Identify different attributes related to that particuar apparel.
+-  Get more dataset for training and then train again.
+-  Dockerize so that it can be productionised
