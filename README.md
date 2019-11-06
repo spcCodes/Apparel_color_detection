@@ -137,6 +137,22 @@ Blue : 0.10%  Green : 99.89%  Red : 0.00%
 
 ```
 
+As you can see it has identified 2 products Jeans and Tops and also could predict the color of each apparel.
+You can try out different images
 
+Another example is as follows:
 
+image_3.jpg . The image is as follows:
 
+<div style="text-align: center"><img src="examples/image_3.jpg" width="300"/></div>
+
+The out is as follows:
+```
+################ PRINTING THE RESULTS ###############
+Products found: 1
+Product_1: dress
+Confidence score: 100.00%
+Predicted color: red
+Blue : 0.00%  Green : 0.00%  Red : 100.00%
+
+```
