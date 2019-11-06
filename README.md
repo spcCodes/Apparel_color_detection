@@ -72,6 +72,7 @@ The entire project structure is as follows:
 
 ```
 As we see from the project structure :
+
 a) all the class related to apparel detector and color detector are kept in **src** folder. 
 
 b)The test images are kept in examples folder. 
