@@ -99,12 +99,26 @@ The meta data information are the label annotations that were donw using LabelIm
 
 **Step 1. Clone the entire project**
 
-* The entire project needs to be cloned into your machine. Once it is cloned we go to that project structure and type in 
+* The entire project needs to be cloned into your machine. Once it is cloned we go to that project structure and type in terminal as:
 
 ```
 export PYTHONPATH=.
 ```
 * We need to install the dependencies required for this project. The dependencies are given in **requirements.txt** file 
+
+**Step 2. Deliverables requirement 1 : Getting the output results given an input image**
+
+* In order to see the output given an input image, type in the following command in the terminal as:
+
+```
+python src/apparel_color_classify.py --image examples/image_11.jpg 
+```
+
+* As we can see the images for testing are kept in examples folder. To test it for varying images , you can change the image name accordingly in the terminal. In case you want to test it for your test image, copy the image inside examples folder and then run the scipt changing the image name 
+
+* Since image_11.jpg was given. The image is shown below:
+
+<div style="text-align: center"><img src="data/image_11.jpg" width="300"/></div>
 
 
 
