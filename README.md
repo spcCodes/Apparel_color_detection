@@ -189,3 +189,40 @@ image_7.jpg,1,dress,5.751730129122734,93.93219351768494,0.31607006676495075
 image_6.jpg,1,dress,0.01206130109494552,99.982750415802,0.0051802238886011764
 ```
 You can copy all your images inside the **examples** folder and run the above script to generate the output in a csv file.
+
+<a name="flask"></a>
+## Flask App
+
+**Deliverables requirement 4 : Making a REST api to check it for images in the web**
+
+I have also created a flask app which would take an image and give recognition in real time. To run the flask app below is the steps
+
+a) Go to the project structure
+b) In a terminal run
+
+```
+python app.py
+```
+
+c) In another terminal , run **test_production.py** to see the output. The command is as follows:
+```
+python test_apparel_classifier.py 
+
+```
+
+The output for the app would look somewhat like this:
+```
+{
+"Product_1":"jeans",
+"Product_1_color_percentages":"Blue : 99.98%  Green : 0.01%  Red : 0.01%",
+"Product_1_confidence":99.4613528251648,
+"Product_1_name":"jeans",
+"Product_1_predicted color":"blue",
+"Product_2":"tops",
+"Product_2_color_percentages":"Blue : 0.13%  Green : 99.87%  Red : 0.00%",
+"Product_2_confidence":95.71353197097778,
+"Product_2_name":"tops",
+"Product_2_predicted color":"green",
+"number_of_products":2
+}
+```
