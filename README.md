@@ -15,7 +15,7 @@ This project focusses on detecting the apparel which may be dress , tops or jean
 The objective of this project is to develop a working model that can automatically identify the apparel types given an image and also identify its colors. To mantain the sanity and complexity of the dataset , the apparel is restricted to dresss,tops and jeans while color is restricted to red, blue and green. It is targeted to serve as an automatic apparel recognition api.
 
 
-The dataset used for this model was the [cloths dataset](https://drive.google.com/open?id=1aj-umzIq9ujQTGnUae__MVgwjTWxviSP). This dataset was collected from the net as we wanted aa custom dataset whoch catered to these 3 apparels only.
+The dataset used for this model was the **[cloths dataset]**(https://drive.google.com/open?id=1aj-umzIq9ujQTGnUae__MVgwjTWxviSP). This dataset was collected from the net as we wanted aa custom dataset whoch catered to these 3 apparels only.If you face downloading the dataset , do drop me a mail to gain the access credentials.
 
 So, in the image recognition api , at the first stage the apparel is detected and identified. So we have used object detection technique for this module. We used **Tensorflow Object Detection** api to train the model in accordance to our custom dataset. The architecture used for training the model was **SSD - Mobilenet** architecture which gave us a very good IOU and also a very good classification accuracy on the test unseen dataset.
 
