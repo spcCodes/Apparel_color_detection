@@ -73,10 +73,15 @@ The entire project structure is as follows:
 ```
 As we see from the project structure :
 a) all the class related to apparel detector and color detector are kept in **src** folder. 
+
 b)The test images are kept in examples folder. 
+
 c) The configurable parameters like model loading path , threshold , test image path are kept in **config.json** file
+
 d) All the trained models and tits label files are kept in **models** folder
+
 e) The utilities or helper functions which are required throughout the project are kept in utils.py insode **utils** folder
+
 f) **app.py** was written for a flask python wrapper to start the server kernel. Also the **test_classifier.py** is on the client side to test it given a web based api
 
 
