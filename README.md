@@ -39,13 +39,6 @@ The entire project structure is as follows:
 ├── data
 ├── examples
 │   ├── image_1.jpg
-│   ├── image_10.jpg
-│   ├── image_11.jpg
-│   ├── image_12.jpg
-│   ├── image_13.jpg
-│   ├── image_14.jpg
-│   ├── image_15.jpg
-│   ├── image_16.jpg
 │   ├── image_2.jpg
 │   ├── image_3.jpg
 │   ├── image_4.jpg
@@ -54,6 +47,7 @@ The entire project structure is as follows:
 │   ├── image_7.jpg
 │   ├── image_8.jpg
 │   └── image_9.jpg
+|   .......
 ├── models
 │   ├── apparel_detector.pb
 │   ├── apparel_labels.pbtxt
